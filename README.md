@@ -13,23 +13,68 @@
   <a href="https://joeylu.ca/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" /></a>
 </p>
 
-## About me
+I'm a CS student at the **University of Waterloo**, a Software Engineering Intern at **TELUS** and a Claude Campus Ambassador with **Anthropic**. I've also worked at **Statistics Canada**, **Windscribe** and **Waterloo Aerial Robotics**. Most of my time goes into building things, so here's what I'm working on.
 
-- 🎓 Computer Science student at the **University of Waterloo**
-- 💼 Software Engineering Intern at **TELUS**
-- 🤖 Claude Campus Ambassador with **Anthropic**
-- 📈 Previously: Statistical Developer Intern at **Statistics Canada**, Intern at **Windscribe**, Autonomy Software at **Waterloo Aerial Robotics**
-- 🏆 Hackathon wins at **Hack the North** (PawTrace) and **QHacks** (Visualise It)
-- 🛠️ I like building full-stack products, data and ML pipelines, and LLM tools that people actually use
+## 🚧 Currently building
 
-## 🚀 Featured projects
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎤 Podium</h3>
+      <p><b>🟢 In progress</b> · 🔒 repo private for now</p>
+      <p>Public-speaking practice for Apple Vision Pro. You stand at a lectern inside a photorealistic Gaussian-splat scan of a real room, facing an audience that reacts to how you speak. It's built on exposure-therapy principles and speech-coaching measures, and you can scan your own room, or a friend to sit in the front row.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
+        <img src="https://img.shields.io/badge/visionOS-000000?style=flat-square&logo=apple&logoColor=white" alt="visionOS" />
+        <img src="https://img.shields.io/badge/RealityKit-000000?style=flat-square&logo=apple&logoColor=white" alt="RealityKit" />
+        <img src="https://img.shields.io/badge/Gaussian%20Splatting-6E40C9?style=flat-square" alt="Gaussian Splatting" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚽ Pitch Rush</h3>
+      <p><b>🟢 In progress</b> · 🔒 repo private for now</p>
+      <p>Arcade 1v1 to 4v4 football for Roblox, inspired by <i>Rematch</i>. It has skill moves, AI keepers, bots that fill empty slots, power-up voting, fouls and cards, and 100 levels of progression. Every stadium, animation and sound is generated from code, so it needs no uploaded assets.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Luau-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Luau" />
+        <img src="https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white" alt="Roblox" />
+        <img src="https://img.shields.io/badge/Rojo-E13835?style=flat-square" alt="Rojo" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/cursingparrot4/HT6-Payment-Optimization">💳 CardIQ</a></h3>
+      <p><b>🟢 In progress</b></p>
+      <p>Decides which credit card should pay each recurring bill (rent, tuition, utilities) and re-decides as rewards, signup bonuses and limits change. An LLM turns your goals into preferences, and a deterministic ILP solver, checked against brute force, handles every cent of the math.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/joeyhlu/visualizeIT">🎨 Visualise It</a></h3>
+      <p><b>🟢 In progress</b> · 🏆 QHacks 2025, Best Mayor's Innovation Challenge</p>
+      <p>Started as a hackathon project that maps designs onto real 3D objects with pose landmarks, segmentation and homography. I'm now growing it into a research prototype with an offline tracking benchmark, a frame-processing service and a browser camera client.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+        <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+## 🚀 Shipped
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/joeyhlu/htn">🐾 PawTrace</a></h3>
       <p><b>🏆 Hack the North winner</b> · <a href="https://devpost.com/software/tailsignal">Devpost</a></p>
-      <p>Finds missing pets by fusing community sightings with doorbell and CCTV footage. Elasticsearch ranks sightings on text, vector, image, location and time signals, builds a prioritised search map, then pulls footage from the cameras covering the likeliest areas and runs a dog detector on it.</p>
+      <p>Finds missing pets by combining community sightings with doorbell and CCTV footage. Elasticsearch ranks the sightings to build a prioritised search map, then the app pulls footage from the cameras covering the likeliest areas and runs a dog detector on it.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
@@ -39,23 +84,9 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/joeyhlu/visualizeIT">🎨 Visualise It</a></h3>
-      <p><b>🏆 QHacks 2025, Best Mayor's Innovation Challenge</b></p>
-      <p>Real-time design visualisation with generative AI: maps designs onto real 3D objects using pose landmarks, segmentation masks and homography so the overlay stays aligned as the object moves.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-        <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-        <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/joeyhlu/notion-oracle">🔮 Notion Oracle</a></h3>
       <p><b>v1.0 released</b> · <a href="https://joeyhlu.github.io/notion-oracle/">Download</a></p>
-      <p>An AI assistant for Notion that runs on your own Claude or ChatGPT subscription instead of a paid add-on. Ships as a desktop overlay for Mac, Windows and Linux plus a browser extension, and edits your workspace through a bundled MCP server for the Notion API.</p>
+      <p>An AI assistant for Notion that runs on your own Claude or ChatGPT subscription instead of a paid add-on. It ships as a desktop overlay for Mac, Windows and Linux plus a browser extension, and edits your workspace through a bundled MCP server for the Notion API.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
@@ -63,10 +94,23 @@
         <img src="https://img.shields.io/badge/Notion%20API-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion API" />
       </p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://valuedex.ca">💹 ValueDex</a></h3>
+      <p><b>1000+ users</b> · <a href="https://github.com/jkhatri23/Valuedex">Repo</a></p>
+      <p>Predicts Pokémon card prices from historical market data. You can search cards, view price history and get price forecasts and investment-style ratings.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/joeyhlu/uofthacks">🔐 ProteccAPI</a></h3>
       <p><b>UofTHacks 12</b> · 100+ npm downloads · <a href="https://marketplace.visualstudio.com/items?itemName=StevenQiao.ProteccAPI">VS Code extension</a></p>
-      <p>A CLI and VS Code extension that catches API keys before they get committed. Blocks commits with a git hook, moves secrets into <code>.env</code>, scores a repo's security from 0 to 10 and flags typosquatted packages.</p>
+      <p>A CLI and VS Code extension that catches API keys before they get committed. It blocks commits with a git hook, moves secrets into <code>.env</code>, scores a repo's security from 0 to 10 and flags typosquatted packages.</p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -77,7 +121,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/joeyhlu/coursecraft">📅 CourseCraft</a></h3>
-      <p>Tell it what you want ("morning classes, buildings close together") and it returns ranked, conflict-free schedules. Factors in walking time between buildings, Rate My Professor scores, backup courses and friends' schedules.</p>
+      <p>Tell it what you want ("morning classes, buildings close together") and it returns ranked, conflict-free schedules. It factors in walking time between buildings, Rate My Professor scores, backup courses and your friends' schedules.</p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
         <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
@@ -97,37 +141,21 @@
   </tr>
 </table>
 
-<details>
-<summary><b>More things I've built</b></summary>
-<br />
+## 🧪 Side projects and experiments
 
-- 💹 **[ValueDex](https://valuedex.ca)**: Pokémon card price predictor with 1000+ users (Next.js, FastAPI, scikit-learn) · [repo](https://github.com/jkhatri23/Valuedex)
-- 📊 **[Quantara](https://github.com/achitaan/Quantara)**: trading research platform with portfolio optimisation, risk modelling and real-time alerts (FastAPI, Next.js, Docker)
-- 🧾 **[CoTaxAI](https://github.com/joeyhlu/taxchatbot)**: tax assistant chatbot (Next.js, Tailwind, Vercel AI SDK)
-- 🔖 **[Track Site](https://github.com/joeyhlu/tracksite)**: bookmark manager with folders (Python, MySQL, React)
-- 🎧 **[SoundVeil](https://github.com/joeyhlu/SoundVeil)**: audio steganography for YRHacks 2024 (React, Node.js)
+- 💃 **Just Dance: Webcam Edition**: dance along to any YouTube dance video while MediaPipe tracks you and the on-screen coach and grades every move (Python, OpenCV, MediaPipe) · 🔒 private
+- 🎮 **Need to Go**: a desktop app that handles League of Legends champ select while you're away from your desk, using the client's local API (Electron, GitHub Actions releases) · 🔒 private
+- 🌾 **Kaggriculture**: an agent for a Kaggle simulation competition with about 9,600 teams, refined over 50 versions with a head-to-head testing harness (Python) · 🔒 private
+- 📊 **[Quantara](https://github.com/achitaan/Quantara)**: a trading research platform with portfolio optimisation, risk modelling and real-time alerts (FastAPI, Next.js, Docker)
+- 🧾 **[CoTaxAI](https://github.com/joeyhlu/taxchatbot)**: a tax assistant chatbot (Next.js, Tailwind, Vercel AI SDK)
+- 🔖 **[Track Site](https://github.com/joeyhlu/tracksite)**: a bookmark manager with folders (Python, MySQL, React)
+- 🎧 **[SoundVeil](https://github.com/joeyhlu/SoundVeil)**: audio steganography, built for YRHacks 2024 (React, Node.js)
 - 🌐 **[joeylu.ca](https://github.com/joeyhlu/website)**: my personal website (React)
 
-</details>
-
-## 🛠️ Tech stack
-
-**Languages**
+## 🛠️ Tech I use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,java,cpp,go,swift,dart,cs,lua&perline=10" alt="Languages" />
-</p>
-
-**Frameworks and libraries**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flutter,electron,tailwind,pytorch,tensorflow,sklearn,opencv&perline=12" alt="Frameworks and libraries" />
-</p>
-
-**Tools and infrastructure**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,elasticsearch,docker,aws,gcp,linux,git,unity&perline=10" alt="Tools and infrastructure" />
+  <img src="https://skillicons.dev/icons?i=python,ts,js,java,cpp,go,swift,react,nextjs,nodejs,fastapi,pytorch,opencv,postgres,docker,aws&perline=16" alt="Tech I use" />
 </p>
 
 ## 📊 GitHub stats
