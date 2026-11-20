@@ -17,7 +17,7 @@ prev statscan, windscribe, waterloo aerial robotics. [resume](https://joeylu.ca/
 - pitch rush - arcade football on roblox
 
 #### stuff i've made
-- [muse kernels](https://github.com/joeyhlu/okc-muse-kernels) - cuda/triton kernels for meta's open kernel challenge
+- [muse spark kernel challenge](https://github.com/joeyhlu/okc-muse-kernels) - meta's gpu comp, wrapped up nov '26. 2.28x on the cuda kernel track, 2.24x faster than stock sglang on the serving track (8x h200)
 - [pawtrace](https://github.com/joeyhlu/htn) - finds lost pets. won hack the north
 - [valuedex](https://valuedex.ca) - pokemon card prices, 1k+ users
 - [notion oracle](https://github.com/joeyhlu/notion-oracle) - use your claude/chatgpt sub inside notion
